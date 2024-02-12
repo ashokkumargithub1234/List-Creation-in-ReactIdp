@@ -1,0 +1,20 @@
+.lists-view {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin-right: 18px;
+  width: 300px;
+  background-color: #eff6ff;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+.lists-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+}
