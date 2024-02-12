@@ -1,6 +1,6 @@
 import { Component } from "react";
-import Loader from "react-loader-spinner";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+// import Loader from "react-loader-spinner";
+// import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import "./index.css";
 
 import Header from "../Header";
@@ -63,7 +63,9 @@ class HomeLists extends Component {
 
   renderSpinnerLoader = () => (
     <div className="loader-container" data-testid="loader">
-      <Loader type="TailSpin" color="#3b82f6" height={50} width={50} />
+      <h1 color="#3b82f6" height={50} width={50}>
+        Fetching Lists...
+      </h1>
     </div>
   );
 
